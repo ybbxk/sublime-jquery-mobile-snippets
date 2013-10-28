@@ -13,7 +13,7 @@
 </head>
 <body>
 <div data-role="page">
-	<header data-role="header">
+	<div data-role="header">
 		<h1>Page header</h1>
 		<nav data-role="navbar">
 			<ul>
@@ -22,17 +22,17 @@
 				 <li><a href="#">navbar3</a></li>
 			</ul>
 		</nav>
-	</header><!-- /header -->
-	<article data-role="content">
+	</div><!-- /header -->
+	<div data-role="content">
 		<ul data-role="listview">
 			<li><a href="#">item1</a></li>
 			<li><a href="#">item2</a></li>
 			<li><a href="#">item3</a></li>
 		</ul>
-	</article><!-- /content -->
-	<footer data-role="footer" data-position="fixed">
+	</div><!-- /content -->
+	<div data-role="footer" data-position="fixed">
 		<h4>Page footer</h4>
-	</footer><!-- /footer -->
+	</div><!-- /footer -->
 </div><!-- /page -->
 </body>
 </html>
